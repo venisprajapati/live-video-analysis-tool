@@ -1,6 +1,6 @@
 # live-video-analysis-tool
 
-![LOGO](https://github.com/venisprajapati/live-video-analysis-tool/live_video_analysis_tool_logo.jpg)
+![LOGO](https://github.com/venisprajapati/live-video-analysis-tool/blob/main/live_video_analysis_tool_logo.jpg)
 
 ## Purpose
 
