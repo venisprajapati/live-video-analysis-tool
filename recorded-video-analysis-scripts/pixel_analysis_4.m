@@ -14,12 +14,20 @@ y = str2double(input(y_prompt,"s"));
 
 line_img = zeros(1,total_frames,3,'uint8');
 
+disp("------------------------------------------------------------");
+analysis = sprintf("Sr. No. \t Red Channel \t Green Channel \t Blue Channel");
+disp(analysis);
+disp("------------------------------------------------------------");
+
 for n = 1:1:total_frames
 
     img=imread(sprintf('roi_images\\%d.jpg', n));
     line_img(:,n,1)=img(y,x,1);
     line_img(:,n,2)=img(y,x,2);
     line_img(:,n,3)=img(y,x,3);
+
+    st = sprintf(n + "\t \t \t \t" + img(y,x,1) + "\t \t \t \t" + img(y,x,2) + "\t \t \t \t" + img(y,x,3));
+    disp(st);
 
 end
 
